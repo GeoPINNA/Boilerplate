@@ -10,6 +10,14 @@
 		258D816B2153DBBB00EA0C3D /* Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258D81612153DBBB00EA0C3D /* Boilerplate.framework */; };
 		258D81702153DBBB00EA0C3D /* BoilerplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D816F2153DBBB00EA0C3D /* BoilerplateTests.swift */; };
 		258D81722153DBBB00EA0C3D /* Boilerplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 258D81642153DBBB00EA0C3D /* Boilerplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		258D817D2153EE2700EA0C3D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D817C2153EE2700EA0C3D /* UIView.swift */; };
+		258D817F2153EE9300EA0C3D /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D817E2153EE9300EA0C3D /* UIColor+Hex.swift */; };
+		258D81812153EED600EA0C3D /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D81802153EED600EA0C3D /* UIButton.swift */; };
+		258D81832153EF2500EA0C3D /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D81822153EF2500EA0C3D /* UIImageView.swift */; };
+		258D81852153EF6F00EA0C3D /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D81842153EF6F00EA0C3D /* UINavigationBar.swift */; };
+		258D81872153EFBC00EA0C3D /* UITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D81862153EFBC00EA0C3D /* UITabBar.swift */; };
+		258D81892153EFDF00EA0C3D /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D81882153EFDF00EA0C3D /* UITableView.swift */; };
+		258D818B2153F05500EA0C3D /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D818A2153F05500EA0C3D /* UITextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,14 @@
 		258D816A2153DBBB00EA0C3D /* BoilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		258D816F2153DBBB00EA0C3D /* BoilerplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerplateTests.swift; sourceTree = "<group>"; };
 		258D81712153DBBB00EA0C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		258D817C2153EE2700EA0C3D /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		258D817E2153EE9300EA0C3D /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		258D81802153EED600EA0C3D /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		258D81822153EF2500EA0C3D /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		258D81842153EF6F00EA0C3D /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
+		258D81862153EFBC00EA0C3D /* UITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBar.swift; sourceTree = "<group>"; };
+		258D81882153EFDF00EA0C3D /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		258D818A2153F05500EA0C3D /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +87,16 @@
 		258D81632153DBBB00EA0C3D /* Boilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				258D817C2153EE2700EA0C3D /* UIView.swift */,
 				258D81642153DBBB00EA0C3D /* Boilerplate.h */,
 				258D81652153DBBB00EA0C3D /* Info.plist */,
+				258D817E2153EE9300EA0C3D /* UIColor+Hex.swift */,
+				258D81802153EED600EA0C3D /* UIButton.swift */,
+				258D81822153EF2500EA0C3D /* UIImageView.swift */,
+				258D81842153EF6F00EA0C3D /* UINavigationBar.swift */,
+				258D81862153EFBC00EA0C3D /* UITabBar.swift */,
+				258D81882153EFDF00EA0C3D /* UITableView.swift */,
+				258D818A2153F05500EA0C3D /* UITextField.swift */,
 			);
 			path = Boilerplate;
 			sourceTree = "<group>";
@@ -148,6 +172,7 @@
 				TargetAttributes = {
 					258D81602153DBBB00EA0C3D = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					258D81692153DBBB00EA0C3D = {
 						CreatedOnToolsVersion = 10.0;
@@ -194,6 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				258D81832153EF2500EA0C3D /* UIImageView.swift in Sources */,
+				258D817D2153EE2700EA0C3D /* UIView.swift in Sources */,
+				258D817F2153EE9300EA0C3D /* UIColor+Hex.swift in Sources */,
+				258D818B2153F05500EA0C3D /* UITextField.swift in Sources */,
+				258D81812153EED600EA0C3D /* UIButton.swift in Sources */,
+				258D81852153EF6F00EA0C3D /* UINavigationBar.swift in Sources */,
+				258D81872153EFBC00EA0C3D /* UITabBar.swift in Sources */,
+				258D81892153EFDF00EA0C3D /* UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +374,7 @@
 		258D81762153DBBB00EA0C3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shotastage.Boilerplate;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +401,7 @@
 		258D81772153DBBB00EA0C3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +427,7 @@
 		258D81792153DBBB00EA0C3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8T4P9D4TB2;
 				INFOPLIST_FILE = BoilerplateTests/Info.plist;
@@ -409,6 +446,7 @@
 		258D817A2153DBBB00EA0C3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8T4P9D4TB2;
 				INFOPLIST_FILE = BoilerplateTests/Info.plist;
