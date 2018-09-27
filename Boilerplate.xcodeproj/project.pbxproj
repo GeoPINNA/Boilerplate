@@ -18,6 +18,7 @@
 		258D81872153EFBC00EA0C3D /* UITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D81862153EFBC00EA0C3D /* UITabBar.swift */; };
 		258D81892153EFDF00EA0C3D /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D81882153EFDF00EA0C3D /* UITableView.swift */; };
 		258D818B2153F05500EA0C3D /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D818A2153F05500EA0C3D /* UITextField.swift */; };
+		25DFC562215CB8FF000C6D68 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DFC561215CB8FF000C6D68 /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		258D81862153EFBC00EA0C3D /* UITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBar.swift; sourceTree = "<group>"; };
 		258D81882153EFDF00EA0C3D /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		258D818A2153F05500EA0C3D /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		25DFC561215CB8FF000C6D68 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				258D81862153EFBC00EA0C3D /* UITabBar.swift */,
 				258D81882153EFDF00EA0C3D /* UITableView.swift */,
 				258D818A2153F05500EA0C3D /* UITextField.swift */,
+				25DFC561215CB8FF000C6D68 /* Device.swift */,
 			);
 			path = Boilerplate;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				258D81832153EF2500EA0C3D /* UIImageView.swift in Sources */,
 				258D817D2153EE2700EA0C3D /* UIView.swift in Sources */,
 				258D817F2153EE9300EA0C3D /* UIColor+Hex.swift in Sources */,
+				25DFC562215CB8FF000C6D68 /* Device.swift in Sources */,
 				258D818B2153F05500EA0C3D /* UITextField.swift in Sources */,
 				258D81812153EED600EA0C3D /* UIButton.swift in Sources */,
 				258D81852153EF6F00EA0C3D /* UINavigationBar.swift in Sources */,
