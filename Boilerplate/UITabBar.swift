@@ -31,5 +31,5 @@ open class TabBar: UITabBar {
         compose()
     }
     
-    func compose() { }
+    public func compose() { }
 }
