@@ -26,13 +26,13 @@ open class View: UIView {
         compose()
     }
     
-    public func compose() { }
+    open func compose() { }
     
-    public var element = { (_ f: () -> Void) -> Void in
+    open var element = { (_ f: () -> Void) -> Void in
         f()
     }
     
-    public var style = { (_ f: () -> Void) -> Void in
+    open var style = { (_ f: () -> Void) -> Void in
         f()
     }
 }

@@ -37,7 +37,7 @@ open class Button: UIButton {
         // TapticEngine.impact.feedback(.light)
     }
     
-    func compose() { }
+    open func compose() { }
     
     
     @available(iOS, obsoleted: 10.0, renamed: "subElements")
@@ -45,7 +45,7 @@ open class Button: UIButton {
         f()
     }
     
-    var subElements = { (_ f: () -> Void) -> Void in
+    open var subElements = { (_ f: () -> Void) -> Void in
         f()
     }
 }
