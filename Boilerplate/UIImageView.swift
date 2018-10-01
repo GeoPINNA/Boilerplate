@@ -30,7 +30,7 @@ open class ImageView: UIImageView {
     }
     
     
-    func compose() { }
+    open func compose() { }
 }
 
 

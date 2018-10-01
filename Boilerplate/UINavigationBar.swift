@@ -27,5 +27,5 @@ open class NavigationBar: UINavigationBar {
         compose()
     }
     
-    func compose() { }
+    open func compose() { }
 }

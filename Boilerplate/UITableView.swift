@@ -30,7 +30,7 @@ open class TableView: UITableView {
         compose()
     }
     
-    func compose() { }
+    open func compose() { }
     
     
     // Deprecations

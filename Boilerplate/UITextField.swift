@@ -27,7 +27,7 @@ open class TextField: UITextField {
         compose()
     }
     
-    func compose() { }
+    open func compose() { }
 }
 
 @available(iOS, obsoleted: 12.0, renamed: "TextField")
