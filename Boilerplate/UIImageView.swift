@@ -32,7 +32,3 @@ open class ImageView: UIImageView {
     
     open func compose() { }
 }
-
-
-@available(iOS, obsoleted: 10.0, renamed: "ImageView")
-class ImageViewComponent { }
