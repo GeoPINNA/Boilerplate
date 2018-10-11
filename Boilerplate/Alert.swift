@@ -10,7 +10,7 @@ import UIKit
 
 
 open class Alert {
-    static func alert(message: String) {
+    static public func confirm(message: String) {
         
         let alert: UIAlertController = UIAlertController(title: message, message: "", preferredStyle:  UIAlertController.Style.alert)
         
